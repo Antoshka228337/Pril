@@ -1,0 +1,25 @@
+﻿<Window x:Class="Finaly2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Finaly2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Visibility="Hidden" x:Name="kapt" VerticalAlignment="Top" Height="120" Width="200">
+            <TextBlock x:Name="txb1" Background="#FFCBC2C2" Width="70"/>
+            <TextBox x:Name="txb2" Width="70"/>
+            <Button Click="btn_next" Content="Next" Width="70"/>
+        </StackPanel>
+        <StackPanel Height="200" Width="300" Margin="250,149,250,85">
+            <TextBlock Text="Login"/>
+            <TextBox x:Name="txb_login"/>
+            <TextBlock Text="Password"/>
+            <TextBox x:Name="txb_password"/>
+            <Button x:Name="signin" Click="btn_sign" Content="Sign"/>
+            <Button x:Name="signin1" Click="btn_sign1" Content="Sign" Visibility="Hidden"/>
+        </StackPanel>
+        
+    </Grid>
+</Window>

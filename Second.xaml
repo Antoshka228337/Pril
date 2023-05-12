@@ -1,0 +1,15 @@
+﻿<Window x:Class="Finaly2.Second"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Finaly2"
+        mc:Ignorable="d"
+        Title="Second" Height="450" Width="800">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="425,217,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBlock x:Name="Adminchik" HorizontalAlignment="Left" Margin="84,188,0,0" TextWrapping="Wrap" Text="Admin" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Userok" HorizontalAlignment="Left" Margin="190,196,0,0" TextWrapping="Wrap" Text="User" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
